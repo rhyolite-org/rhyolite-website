@@ -1,0 +1,40 @@
+---
+title: Downloads
+description: Open-source Markdown editor to connect your ideas.
+template: splash
+
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
+
+
+<Tabs style="padding-top: 20px;">
+  <TabItem label="Windows" icon="seti:windows">
+  <h4 style={{ padding: '0 20px', }}>Setup:</h4>
+    <center>
+      <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_x64-setup.exe" target="_blank" icon="download">Windows(64bit)</LinkButton>
+      <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_x86-setup.exe" target="_blank" icon="download">Windows(32bit)</LinkButton>
+      <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_arm64-setup.exe" target="_blank" icon="download">Windows(arm64)</LinkButton>
+    </center>
+    <h4 style={{ padding: '0 20px', }}>MSI:</h4>
+    <center>
+      <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_x64_en-US.msi" target="_blank" icon="download">Windows(64bit)</LinkButton>
+      <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_x86_en-US.msi" target="_blank" icon="download">Windows(32bit)</LinkButton>
+      <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_arm64_en-US.msi" target="_blank" icon="download">Windows(arm64)</LinkButton>
+    </center>
+  </TabItem>
+  <TabItem label="MacOS" icon="apple">
+  	<center>
+		  <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_aarch64.dmg" target="_blank" icon="download">DMG(Apple Silicon)</LinkButton>
+			<LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_x64.dmg" target="_blank" icon="download">DMG(Intel Chip)</LinkButton>
+    </center>
+  </TabItem>
+  <TabItem label="Linux" icon="linux">
+  	<center>
+       <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_amd64.AppImage" target="_blank" icon="download">AppImage</LinkButton>
+		   <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite_0.1.5_amd64.deb" target="_blank" icon="download">Deb</LinkButton>
+		   <LinkButton href="https://github.com/rhyolite-org/rhyolite/releases/download/v0.1.5/Rhyolite-0.1.5.x86_64.rpm" target="_blank" icon="download">RPM</LinkButton>
+    </center>
+  </TabItem>
+</Tabs>
