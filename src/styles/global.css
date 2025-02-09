@@ -6,17 +6,17 @@ body {
 }
 
 :root {
-    --sl-color-accent-low: #11111b;
-    --sl-color-accent: #89b4fa;
-    --sl-color-accent-high: #b4befe;
-    --sl-color-white: #cdd6f4;
-    --sl-color-gray-1: #7f849c;
-    --sl-color-gray-2: #6c7086;
-    --sl-color-gray-3: #585b70;
-    --sl-color-gray-4: #45475a;
-    --sl-color-gray-5: #313244;
-    --sl-color-gray-6: #1e1e2e;
-    --sl-color-black: #181825;
+    --sl-color-accent-low: #e0def4; 
+    --sl-color-accent: #eb6f92;
+    --sl-color-accent-high: #c4a7e7;
+    --sl-color-white: #e0def4;
+    --sl-color-gray-1: #908caa;
+    --sl-color-gray-2: #6e6a86;
+    --sl-color-gray-3: #524f67;
+    --sl-color-gray-4: #403d52;
+    --sl-color-gray-5: #26233a;
+    --sl-color-gray-6: #1f1d2e;
+    --sl-color-black: #191724;
 }
 /* Light mode colors. */
 :root[data-theme="light"] {
@@ -34,10 +34,10 @@ body {
     --sl-color-black: #ffffff;
 }
 
-[data-has-hero] .hero img {
-    filter: drop-shadow(0 0 40px rgba(203, 166, 247, 0.2))
-        drop-shadow(0 0 80px rgba(203, 166, 247, 0.2));
-}
+/* [data-has-hero] .hero img {
+    filter: drop-shadow(0 0 60px #121019)
+        drop-shadow(0 0 100px #121019);
+} */
 
 /* .header {
     background: rgba(
