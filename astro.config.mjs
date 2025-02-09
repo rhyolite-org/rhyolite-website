@@ -7,10 +7,10 @@ export default defineConfig({
   integrations: [
     starlight({
       customCss: ["./src/styles/global.css"],
-      // logo: {
-      //   src: "./src/assets/logo.png",
-      //   // replacesTitle: true, // Hide the site title
-      // },
+      logo: {
+        src: "./src/assets/Notepad_icon_web.svg",
+        // replacesTitle: true, // Hide the site title
+      },
       title: "Rhyolite",
       social: {
         github: "https://github.com/rhyolite-org/rhyolite",
