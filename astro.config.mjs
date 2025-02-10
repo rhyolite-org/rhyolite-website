@@ -9,7 +9,7 @@ export default defineConfig({
       customCss: ["./src/styles/global.css"],
       logo: {
         src: "./src/assets/Notepad_icon_web.svg",
-        // replacesTitle: true, // Hide the site title
+        replacesTitle: true, // Hide the site title
       },
       title: "Rhyolite",
       social: {
